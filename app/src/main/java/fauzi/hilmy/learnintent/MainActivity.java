@@ -30,8 +30,8 @@ public class MainActivity extends AppCompatActivity {
         btnExplicit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent a1 = new Intent(getApplicationContext(), ActivityExplicitIntent.class);
-                startActivity(a1);
+                Intent q2 = new Intent(getApplicationContext(), ActivityPutExtra.class);
+                startActivity(q2);
             }
         });
     }
